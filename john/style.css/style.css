@@ -1,0 +1,127 @@
+/* style.css */
+
+
+header {
+background-color: #1e1e1e;
+padding: 20px 0;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 90%;
+margin: 0 auto;
+}
+
+.logo a {
+color: #ffffff;
+font-size: 1.5em;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+margin-left: 20px;
+}
+
+nav ul li a {
+color: #ffffff;
+text-decoration: none;
+font-size: 1em;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: #ff9800;
+}
+
+.auth-links {
+display: flex;
+align-items: center;
+}
+
+.auth-links a {
+color: #ffffff;
+text-decoration: none;
+margin-left: 20px;
+padding: 8px 16px;
+border-radius: 4px;
+transition: background-color 0.3s;
+}
+
+.auth-links .sign-up {
+background-color: #ff9800;
+color: #121212;
+}
+
+.auth-links .sign-up:hover {
+background-color: #e68900;
+}
+
+.auth-links .log-in {
+border: 1px solid #ffffff;
+}
+
+.auth-links .log-in:hover {
+background-color: #ffffff;
+color: #121212;
+}
+
+.hero {
+background: url('hero-background.jpg') no-repeat center center/cover;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 0 20px;
+color: #ffffff;
+}
+
+.hero-container {
+max-width: 800px;
+}
+
+.hero h1 {
+font-size: 3em;
+margin-bottom: 20px;
+}
+
+.hero p {
+font-size: 1.2em;
+margin-bottom: 40px;
+}
+
+.hero-buttons .cta-button {
+background-color: #ff9800;
+color: #121212;
+text-decoration: none;
+padding: 15px 30px;
+border-radius: 4px;
+font-size: 1em;
+transition: background-color 0.3s;
+}
+
+.hero-buttons .cta-button.secondary {
+background-color: transparent;
+color: #ffffff;
+border: 1px solid #ffffff;
+margin-left: 20px;
+}
+
+.hero-buttons .cta-button:hover {
+background-color: #e68900;
+}
+
+.hero-buttons .cta-button.secondary:hover {
+background-color: #ffffff;
+color: #121212;
+}
